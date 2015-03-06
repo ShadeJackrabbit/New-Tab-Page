@@ -7,6 +7,8 @@ A start page for your browser to be used as a New Tab replacement. Built not as 
 
 Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox. 
 
+Background images will have to be inserted into a "backgrounds" subfolder, and then some JS tweaked. If you want icons for links, they can go into an "icons" subfolder. (See below.)
+
 ##Version Info##
 
 ###Current Progress###
