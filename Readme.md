@@ -3,6 +3,10 @@ A start page for your browser to be used as a New Tab replacement. Built not as 
 
 ![Screenshot](http://i.imgur.com/o55MuXp.jpg)
 
+**How to use?**
+
+Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox. 
+
 ##Version Info##
 
 ###Current Progress###
