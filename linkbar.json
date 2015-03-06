@@ -1,0 +1,47 @@
+{
+	"Reddit": {
+		"Front": "https://www.reddit.com/",
+		"Android": "https://www.reddit.com/r/Android/",
+		"Dumpster Diving": "https://www.reddit.com/r/DumpsterDiving/",
+		"Interesting As Fuck": "https://www.reddit.com/r/interestingasfuck/",
+		"Minecraft": "https://www.reddit.com/r/Minecraft/",
+		"Obscure Media": "https://www.reddit.com/r/ObscureMedia/",
+		"Raspberry Pi": "https://www.reddit.com/r/raspberry_pi/",
+		"Unix Porn": "https://www.reddit.com/r/unixporn/"
+	},
+	"Google": {
+		"Drive": "https://drive.google.com/drive/u/0/#my-drive",
+		"YouTube": "https://www.youtube.com/",
+		"Maps": "https://www.google.ca/maps?hl=en&tab=ol&authuser=0",
+		"Blogger": "https://www.blogger.com/home",
+		"Translate": "https://translate.google.com/"
+	},
+	"Messaging": {
+		"Avocado": "https://avocado.io/=/",
+		"Facebook": "https://www.facebook.com/messages/",
+		"Twitter": "https://www.twitter.com"
+	},
+	"Forums": {
+		"Minecraft": "http://www.minecraftforum.net/forums/",
+		"Shade Nexus": "http://forum.shadenexus.com"
+	},
+	"Wiki": {
+		"Dungeon Crawl": "http://crawl.chaosforge.org/Crawl_Wiki",
+		"Minecraft": "http://minecraft.gamepedia.com/Minecraft_Wiki",
+		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
+		"Terraria": "http://terraria.gamepedia.com/Terraria_Wiki"
+	},
+	"Store": {
+		"AliExpress": "http://www.aliexpress.com/",
+		"Amazon": "http://www.amazon.ca",
+		"DealExtreme": "http://www.dx.com/",
+		"ebay": "http://www.ebay.ca/",
+		"NCIX": "http://www.ncix.com/",
+		"Newegg": "http://www.newegg.ca/",
+		"TigerDirect": "http://www.tigerdirect.ca/"
+	},
+	"Mods": {
+		"Minecraft": "http://modlist.mcf.li/version/",
+		"Firefox": "https://addons.mozilla.org/en-US/firefox/"
+	}
+}
