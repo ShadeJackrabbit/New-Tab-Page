@@ -1,15 +1,29 @@
-var m = new MersenneTwister();
-var whichBackground=Math.round(m.random()*(43))+1;
 var BackgroundImage = new Image();
 BackgroundImage.onload = function() {
 	$(BackgroundImage).css('left', (document.body.clientWidth/2) - (BackgroundImage.clientWidth/2));
-	$.adaptiveBackground.run()
+	$.adaptiveBackground.run();
 }
-BackgroundImage.id = "background";
-$(BackgroundImage).attr("data-adaptive-background", 1);
-$('body').append(BackgroundImage);
-BackgroundImage.src = "backgrounds/backgrounds ("+whichBackground+").jpg";
 
+
+// Background loading
+var m = new MersenneTwister();
+JSZipUtils.getBinaryContent('backgrounds.zip', function(err, data) {
+  	if(err) { throw err; }
+
+  	var zip = new JSZip(data);
+
+  	// Background selection
+  	images = zip.file(/\.(jpg|png|jpeg)/);
+  	var whichBackground=Math.round(m.random()*(images.length));
+
+	// Pre-setup of colour processing
+	BackgroundImage.id = "background";
+	$(BackgroundImage).attr("data-adaptive-background", 1);
+	$('body').append(BackgroundImage);
+	BackgroundImage.src = 'data:image/png;base64,' + base64ArrayBuffer(images[whichBackground].asArrayBuffer());
+});
+
+// Colour Processing
 $(BackgroundImage).on('ab-color-found', function(ev,payload){
 	if (payload.color == "rgb(,,)" || payload.color == "rgb()") {
 		payload.color = "rgb(80,80,80)";
