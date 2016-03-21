@@ -28,6 +28,7 @@
 	padding: 6 0 6 0;
 	background-color: #888;
 	box-shadow: 0px 2px 1px 0 rgba(0,0,0,0.3);
+	justify-content: space-around;
 }
 
 body {
@@ -47,14 +48,20 @@ body {
 .linkTab {
 	font-family: Anonymous Pro;
 	text-transform: uppercase;
-	margin: 0 8px 0 8px;
 	padding: 2px 6px 2px 6px;
 	font-weight: 800;
+	text-align: center;
+	flex-grow: 1;
+	flex-basis: 0;
 }
 
 .linkTab .menuItem {
 	padding: 2px 0 0 2px;
 	font-weight: 400;
+	white-space: nowrap; 
+	overflow: hidden; 
+	text-overflow: ellipsis;
+	text-align: left;
 }
 
 @keyframes fadeInDown {
@@ -87,7 +94,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	animation: none;
-	width: 100%;
 	padding: 2px 6px 2px 6px;
 	margin-left: -6px;
 }
@@ -101,7 +107,6 @@ body {
 a {	color: whitesmoke; }
 
 .menuItem img {
-	float: left;
 	margin-right: 3px;
 }
 

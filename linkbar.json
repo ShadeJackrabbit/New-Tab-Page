@@ -1,47 +1,38 @@
 {
-	"Reddit": {
-		"Front": "https://www.reddit.com/",
-		"Android": "https://www.reddit.com/r/Android/",
-		"Dumpster Diving": "https://www.reddit.com/r/DumpsterDiving/",
-		"Interesting As Fuck": "https://www.reddit.com/r/interestingasfuck/",
-		"Minecraft": "https://www.reddit.com/r/Minecraft/",
-		"Obscure Media": "https://www.reddit.com/r/ObscureMedia/",
-		"Raspberry Pi": "https://www.reddit.com/r/raspberry_pi/",
-		"Unix Porn": "https://www.reddit.com/r/unixporn/"
+	"Subs": {
+		"Reddit": "https://www.reddit.com/",
+		"r_Menslib": "https://www.reddit.com/r/Menslib/",
+		"r_PNWS": "https://www.reddit.com/r/PNWS/",
+		"r_SkyrimMods": "https://www.reddit.com/r/skyrimmods/",
+		"r_Vexillology": "https://www.reddit.com/r/vexillology/"
 	},
-	"Google": {
-		"Drive": "https://drive.google.com/drive/u/0/#my-drive",
-		"YouTube": "https://www.youtube.com/",
-		"Maps": "https://www.google.ca/maps?hl=en&tab=ol&authuser=0",
-		"Blogger": "https://www.blogger.com/home",
-		"Translate": "https://translate.google.com/"
-	},
-	"Messaging": {
+	"Social": {
 		"Avocado": "https://avocado.io/=/",
-		"Facebook": "https://www.facebook.com/messages/",
-		"Twitter": "https://www.twitter.com"
+		"diaspora*": "https://diasp.org/stream",
+		"Facebook": "https://www.facebook.com/"
 	},
-	"Forums": {
-		"Minecraft": "http://www.minecraftforum.net/forums/",
-		"Shade Nexus": "http://forum.shadenexus.com"
+	"Aggregation": {
+		"Feedly": "https://feedly.com/i/my",
+		"Instapaper": "https://www.instapaper.com/u",
+		"Panoptikos": "http://www.panoptikos.com/r/detailcraft+me_irl+startpages+unixporn+battlestations+beforenafteradoption+dataisbeautiful+edc"
+	},
+	"Apps": {
+		"Maps" : "https://www.google.ca/maps?hl=en&tab=ol&authuser=0",
+		"Sunrise": "https://calendar.sunrise.am/",
+		"Todoist": "https://todoist.com"
+	},
+	"Modding": {
+		"Skyrim": "http://www.nexusmods.com/skyrim/?",
+		"Greasy Fork": "https://greasyfork.org/en",
+		"Steam Banners": "http://steambanners.booru.org/index.php",
+		"Steam Grid DB": "http://www.raresites.us/steamgridDB/",
+		"Userstyles": ""
 	},
 	"Wiki": {
-		"Dungeon Crawl": "http://crawl.chaosforge.org/Crawl_Wiki",
-		"Minecraft": "http://minecraft.gamepedia.com/Minecraft_Wiki",
+		"Desktop Dungeons": "http://www.qcfdesign.com/wiki/DesktopDungeons/index.php?title=Desktop_Dungeons",
+		"Elder Scrolls": "http://www.uesp.net/wiki/Main_Page",
+		"Erowid": "https://www.erowid.org/experiences/",
 		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
-		"Terraria": "http://terraria.gamepedia.com/Terraria_Wiki"
-	},
-	"Store": {
-		"AliExpress": "http://www.aliexpress.com/",
-		"Amazon": "http://www.amazon.ca",
-		"DealExtreme": "http://www.dx.com/",
-		"ebay": "http://www.ebay.ca/",
-		"NCIX": "http://www.ncix.com/",
-		"Newegg": "http://www.newegg.ca/",
-		"TigerDirect": "http://www.tigerdirect.ca/"
-	},
-	"Mods": {
-		"Minecraft": "http://modlist.mcf.li/version/",
-		"Firefox": "https://addons.mozilla.org/en-US/firefox/"
+		"Wikipedia": "https://www.wikipedia.org/"
 	}
 }
