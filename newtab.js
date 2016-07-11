@@ -19,6 +19,12 @@ $.getJSON('linkbar.json',function(data) {
 
 		newTab.appendChild(tabMenu);
 		for (entry in data[tab]) {
+			var entryImage = document.createElement("img")
+			//Use PHP to check if image exists. If it does...
+				//Use folder image
+			//If it doesn't...
+				//Request http://www.google.com/s2/favicons?domain=www.yourdomain.com
+			//Then change append form for it
 			$(tabMenu).append("<a href='"+data[tab][entry]+"' class='menuItem'><img src='icons/"+entry+".png'/>"+entry+"</a>");
 		}
 	}

@@ -1,16 +1,4 @@
 {
-	"Subs": {
-		"Reddit": "https://www.reddit.com/",
-		"r_Menslib": "https://www.reddit.com/r/Menslib/",
-		"r_PNWS": "https://www.reddit.com/r/PNWS/",
-		"r_SkyrimMods": "https://www.reddit.com/r/skyrimmods/",
-		"r_Vexillology": "https://www.reddit.com/r/vexillology/"
-	},
-	"Social": {
-		"Avocado": "https://avocado.io/=/",
-		"diaspora*": "https://diasp.org/stream",
-		"Facebook": "https://www.facebook.com/"
-	},
 	"Aggregation": {
 		"Feedly": "https://feedly.com/i/my",
 		"Instapaper": "https://www.instapaper.com/u",
@@ -25,14 +13,20 @@
 		"Skyrim": "http://www.nexusmods.com/skyrim/?",
 		"Greasy Fork": "https://greasyfork.org/en",
 		"Steam Banners": "http://steambanners.booru.org/index.php",
-		"Steam Grid DB": "http://www.raresites.us/steamgridDB/",
-		"Userstyles": ""
+		"Steam Grid DB": "http://www.raresites.us/steamgridDB/"
+	},
+	"Social": {
+		"Avocado": "https://avocado.io/=/",
+		"diaspora*": "https://diasp.org/stream",
+		"Facebook": "https://www.facebook.com/"
+	},
+	"Stores": {
+		"Bulbs Pro": "http://www.bulbspro.com"
 	},
 	"Wiki": {
 		"Desktop Dungeons": "http://www.qcfdesign.com/wiki/DesktopDungeons/index.php?title=Desktop_Dungeons",
 		"Elder Scrolls": "http://www.uesp.net/wiki/Main_Page",
 		"Erowid": "https://www.erowid.org/experiences/",
-		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
-		"Wikipedia": "https://www.wikipedia.org/"
+		"Shade Nexus": "http://wiki.shadenexus.com/doku.php"
 	}
 }
