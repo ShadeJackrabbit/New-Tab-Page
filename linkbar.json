@@ -17,8 +17,8 @@
 	},
 	"Social": {
 		"Avocado": "https://avocado.io/=/",
-		"diaspora*": "https://diasp.org/stream",
-		"Facebook": "https://www.facebook.com/"
+		"Facebook": "https://www.facebook.com/",
+		"Instagram": "https://www.instagram.com"
 	},
 	"Stores": {
 		"Bulbs Pro": "http://www.bulbspro.com",
@@ -28,6 +28,7 @@
 		"Desktop Dungeons": "http://www.qcfdesign.com/wiki/DesktopDungeons/index.php?title=Desktop_Dungeons",
 		"Elder Scrolls": "http://www.uesp.net/wiki/Main_Page",
 		"Erowid": "https://www.erowid.org/experiences/",
-		"Shade Nexus": "http://wiki.shadenexus.com/doku.php"
+		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
+		"Starbounder": "http://starbounder.org/Starbound_Wiki"
 	}
 }
