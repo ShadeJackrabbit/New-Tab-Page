@@ -11,13 +11,10 @@ Background images will have to be inserted into a "backgrounds" zip file. The .z
 
 ##Version Info##
 
-**v1.1 - Favicon Flavitron**
+**v1.2 - Magical Image Reading**
 
 - Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.
-
-**v1.0 - Zip Im**
-
-- Images are now loaded from a zip file called "backgrounds"
+- Images are dynamically loaded via PHP from a directory called "backgrounds". Why didn't it work this way before? Because I didn't realize how powerful and awesome PHP was. My bad. Because of this, **Newtab.html is now .php**
 
 **v0.9 - Github Wubwub**
 
@@ -32,8 +29,6 @@ Uses jQuery, which is linked via Google's hosted libraries. Also uses:
 - [Colour.js](http://code.stephenmorley.org/javascript/colour-handling-and-processing/) by [Stephen Morley](http://stephenmorley.org/)
 - [markdown-js](https://github.com/cadorn/markdown-js) by [Christoph Dorn](www.christophdorn.com/)
 - banksean's [Mersenne Twister](https://gist.github.com/banksean/300494) js implementation
-- [Jszip](https://stuk.github.io/jszip/)
-- jonleighton's [arraybuffer encoder](https://gist.github.com/jonleighton/958841)
 
 ##Special Thanks##
 - Wikimedia for [Wikiquote](en.wikiquote.org/), from which most of my quotes were taken.
