@@ -16,6 +16,11 @@
 	<script type="text/javascript" src="jszip-utils.min.js"></script>
 	<script type="text/javascript" src="base64ArrayBuffer.js"></script>
 	<body>
+		<?php
+			$dir = "backgrounds";
+			$backSrcLnk = $dir . "/" . array_rand(array_flip(array_diff(scandir($dir), array('..', '.'))));
+		?>
+		<img id="background" data-adaptive-background="1" src="<?php echo $backSrcLnk;?>"/>
 		<script type="text/javascript" src="background.js"></script>
 		<div id="linkbar" class="material"></div>
 		<div id="quote" class="material">

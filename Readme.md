@@ -11,13 +11,10 @@ Background images will have to be inserted into a "backgrounds" zip file. The .z
 
 ##Version Info##
 
-**v1.1 - Favicon Flavitron**
+**v1.2 - Magical Image Reading**
 
 - Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.
-
-**v1.0 - Zip Im**
-
-- Images are now loaded from a zip file called "backgrounds"
+- Images are dynamically loaded via PHP from a directory called "backgrounds". Why didn't it work this way before? Because I didn't realize how powerful and awesome PHP was. My bad. Because of this, **Newtab.html is now .php**
 
 **v0.9 - Github Wubwub**
 

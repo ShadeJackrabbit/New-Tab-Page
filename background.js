@@ -1,27 +1,9 @@
-var BackgroundImage = new Image();
+var BackgroundImage = document.getElementById("background");
+
 BackgroundImage.onload = function() {
 	$(BackgroundImage).css('left', (document.body.clientWidth/2) - (BackgroundImage.clientWidth/2));
 	$.adaptiveBackground.run();
 }
-
-
-// Background loading
-var m = new MersenneTwister();
-JSZipUtils.getBinaryContent('backgrounds.zip', function(err, data) {
-  	if(err) { throw err; }
-
-  	var zip = new JSZip(data);
-
-  	// Background selection
-  	images = zip.file(/\.(jpg|png|jpeg)/);
-  	var whichBackground=Math.round(m.random()*(images.length));
-
-	// Pre-setup of colour processing
-	BackgroundImage.id = "background";
-	$(BackgroundImage).attr("data-adaptive-background", 1);
-	$('body').append(BackgroundImage);
-	BackgroundImage.src = 'data:image/png;base64,' + base64ArrayBuffer(images[whichBackground].asArrayBuffer());
-});
 
 // Colour Processing
 $(BackgroundImage).on('ab-color-found', function(ev,payload){
@@ -49,11 +31,11 @@ $(BackgroundImage).on('ab-color-found', function(ev,payload){
 	if (backColour.getHSV().h > 180) {
 		console.log("Right end.");
 		var bad = new HSVColour((backColour.getHSV().h / 2) + 180, backColour.getHSV().s, value);
-		var good = new HSVColour((backColour.getHSV().h + (360 - backColour.getHSV().h)/2)/2, backColour.getHSV().s, value);	
+		var good = new HSVColour((backColour.getHSV().h + (360 - backColour.getHSV().h)/2)/2, backColour.getHSV().s, value);
 	} else {
 		console.log("Left end.");
 		var bad  = new HSVColour(backColour.getHSV().h / 2, backColour.getHSV().s, value);
-		var good = new HSVColour((backColour.getHSV().h + (180 - backColour.getHSV().h))/2, backColour.getHSV().s, value);	
+		var good = new HSVColour((backColour.getHSV().h + (180 - backColour.getHSV().h))/2, backColour.getHSV().s, value);
 	}
 
 	if ( bad.getHSV().s < 40) { bad  = new HSVColour (bad.getHSV().h, 40,  bad.getHSV().v);	}
