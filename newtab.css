@@ -46,7 +46,7 @@ body {
 }
 
 .linkTab {
-	font-family: Anonymous Pro;
+	font-family: 'Anonymous Pro';
 	text-transform: uppercase;
 	padding: 2px 6px 2px 6px;
 	font-weight: 800;
@@ -58,8 +58,8 @@ body {
 .linkTab .menuItem {
 	padding: 2px 0 0 2px;
 	font-weight: 400;
-	white-space: nowrap; 
-	overflow: hidden; 
+	white-space: nowrap;
+	overflow: hidden;
 	text-overflow: ellipsis;
 	text-align: left;
 }

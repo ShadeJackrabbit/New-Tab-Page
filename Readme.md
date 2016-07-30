@@ -5,17 +5,15 @@ A start page for your browser to be used as a New Tab replacement. Built not as 
 
 **How to use?**
 
-Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox. 
+Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox.
 
 Background images will have to be inserted into a "backgrounds" zip file. The .zip can be any layout, but only .png and .jpg files will be loaded. If you want icons for links, they can go into an "icons" subfolder. (See below.)
 
 ##Version Info##
 
-###Current Progress###
-    Colour Shifting          [████████  ]
-	Background Image Loading [██████████]
-	Quote Processing		 [██████████]
-	Link Loading			 [██████████]
+**v1.1 - Favicon Flavitron**
+
+- Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.
 
 **v1.0 - Zip Im**
 
@@ -30,7 +28,7 @@ Background images will have to be inserted into a "backgrounds" zip file. The .z
 ##Tech##
 Uses jQuery, which is linked via Google's hosted libraries. Also uses:
 
-- [Jquery Adaptive Backgrounds](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/) by [Brian Gonzalez](http://briangonzalez.org/) 
+- [Jquery Adaptive Backgrounds](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/) by [Brian Gonzalez](http://briangonzalez.org/)
 - [Colour.js](http://code.stephenmorley.org/javascript/colour-handling-and-processing/) by [Stephen Morley](http://stephenmorley.org/)
 - [markdown-js](https://github.com/cadorn/markdown-js) by [Christoph Dorn](www.christophdorn.com/)
 - banksean's [Mersenne Twister](https://gist.github.com/banksean/300494) js implementation
