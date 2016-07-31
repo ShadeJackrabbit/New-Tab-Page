@@ -1,17 +1,18 @@
 {
 	"Aggregation": {
+		"Bookmarks": "http://blog.shadenexus.com/awesome-web-stuff",
 		"Feedly": "https://feedly.com/i/my",
 		"Instapaper": "https://www.instapaper.com/u",
 		"Panoptikos": "http://www.panoptikos.com/r/detailcraft+me_irl+startpages+unixporn+battlestations+beforenafteradoption+dataisbeautiful+edc"
 	},
 	"Apps": {
-		"Maps" : "https://www.google.ca/maps?hl=en&tab=ol&authuser=0",
-		"Sunrise": "https://calendar.sunrise.am/",
+		"Jolicloud": "https://home.desktop.pro",
 		"Todoist": "https://todoist.com"
 	},
 	"Modding": {
 		"Skyrim": "http://www.nexusmods.com/skyrim/?",
 		"Greasy Fork": "https://greasyfork.org/en",
+		"Open UserJS": "https://openuserjs.org",
 		"Steam Banners": "http://steambanners.booru.org/index.php",
 		"Steam Grid DB": "http://www.raresites.us/steamgridDB/"
 	},
@@ -22,7 +23,11 @@
 	},
 	"Stores": {
 		"Bulbs Pro": "http://www.bulbspro.com",
-		"Elmwood Electronics": "https://elmwoodelectronics.ca"
+		"BuroPLUS Office": "http://www.buroplus.ca/en",
+		"Elmwood Electronics": "https://elmwoodelectronics.ca",
+		"JetPens": "http://www.jetpens.com",
+		"Police Auctions Canada": "http://www.policeauctionscanada.com",
+		"SlickDeals": "http://slickdeals.net"
 	},
 	"Wiki": {
 		"Desktop Dungeons": "http://www.qcfdesign.com/wiki/DesktopDungeons/index.php?title=Desktop_Dungeons",
