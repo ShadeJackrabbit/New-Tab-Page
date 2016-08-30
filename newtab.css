@@ -40,8 +40,8 @@ body {
 
 #background {
 	position: fixed;
-	width: auto;
-	height: 100%;
+	/*width: auto;
+	height: 100%;*/
 	z-index: -10;
 }
 

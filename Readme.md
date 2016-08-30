@@ -11,6 +11,10 @@ Background images will have to be inserted into a "backgrounds" zip file. The .z
 
 ##Version Info##
 
+**v1.3 - Resizing Revolution**
+
+- Dynamically resizes images to screen size, always maximizing the screen usage.
+
 **v1.2 - Magical Image Reading**
 
 - Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.

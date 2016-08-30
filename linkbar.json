@@ -9,6 +9,10 @@
 		"Jolicloud": "https://home.desktop.pro",
 		"Todoist": "https://todoist.com"
 	},
+	"Library": {
+		"Criterion Collection": "http://search.alexanderstreet.com.ezproxy.torontopubliclibrary.ca/crit",
+		"Hoopla": "https://www.hoopladigital.com/home;jsessionid=9C70579F4F698F8CDE813390CF185C21"
+	},
 	"Modding": {
 		"Skyrim": "http://www.nexusmods.com/skyrim/?",
 		"Greasy Fork": "https://greasyfork.org/en",
