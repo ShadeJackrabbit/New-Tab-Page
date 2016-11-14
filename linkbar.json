@@ -2,11 +2,14 @@
 	"Aggregation": {
 		"Bookmarks": "http://blog.shadenexus.com/awesome-web-stuff",
 		"Feedly": "https://feedly.com/i/my",
-		"Panoptikos": "http://www.panoptikos.com/r/detailcraft+me_irl+startpages+unixporn+battlestations+beforenafteradoption+dataisbeautiful+edc"
+		"Panoptikos": "http://www.panoptikos.com/r/detailcraft+me_irl+startpages+unixporn+battlestations+beforenafteradoption+dataisbeautiful+edc",
+		"Reddit": "https://www.reddit.com"
 	},
 	"Apps": {
+		"Google Drive": "https://drive.google.com",
 		"Jolicloud": "https://home.desktop.pro",
-		"Todoist": "https://todoist.com"
+		"Todoist": "https://todoist.com",
+		"Fallen London": "http://fallenlondon.storynexus.com"
 	},
 	"Library": {
 		"Criterion Collection": "http://search.alexanderstreet.com.ezproxy.torontopubliclibrary.ca/crit",
