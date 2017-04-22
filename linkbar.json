@@ -7,7 +7,6 @@
 	},
 	"Apps": {
 		"Google Drive": "https://drive.google.com",
-		"Jolicloud": "https://home.desktop.pro",
 		"Todoist": "https://todoist.com",
 		"Fallen London": "http://fallenlondon.storynexus.com"
 	},
@@ -16,7 +15,7 @@
 		"Hoopla": "https://www.hoopladigital.com/home;jsessionid=9C70579F4F698F8CDE813390CF185C21"
 	},
 	"Modding": {
-		"Fallout 4": "http://www.nexusmods.com/fallout4/?",
+		"Oblivion": "http://oblivion.nexusmods.com/",
 		"Greasy Fork": "https://greasyfork.org/en",
 		"Open UserJS": "https://openuserjs.org",
 		"Skyrim": "http://www.nexusmods.com/skyrim/?",
@@ -24,7 +23,7 @@
 		"Steam Grid DB": "http://www.steamgriddb.com"
 	},
 	"Social": {
-		"Avocado": "https://avocado.io/=/",
+		"Twitter": "https://twitter.com",
 		"Facebook": "https://www.facebook.com/",
 		"Instagram": "https://www.instagram.com"
 	},
@@ -33,17 +32,14 @@
 		"BuroPLUS Office": "http://www.buroplus.ca/en",
 		"Elmwood Electronics": "https://elmwoodelectronics.ca",
 		"JetPens": "http://www.jetpens.com",
-		"Police Auctions Canada": "http://www.policeauctionscanada.com",
-		"SlickDeals": "http://slickdeals.net"
+		"Police Auctions Canada": "http://www.policeauctionscanada.com"
 	},
 	"Wiki": {
-		"Desktop Dungeons": "http://www.qcfdesign.com/wiki/DesktopDungeons/index.php?title=Desktop_Dungeons",
 		"Elder Scrolls": "http://www.uesp.net/wiki/Main_Page",
 		"Erowid": "https://www.erowid.org/experiences/",
-		"Fallen London (OOC)": "http://fallenlondon.wikia.com/wiki/Echo_Bazaar_Wiki",
-		"Fallen London (IC)": "http://thefifthcity.wikia.com/wiki/The_Fifth_City:_the_Neath's_Lore_Wiki",
-		"Minecraft": "http://minecraft.gamepedia.com/Minecraft_Wiki",
 		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
-		"Starbounder": "http://starbounder.org/Starbound_Wiki"
+		"Stardew Valley": "http://stardewvalleywiki.com/Stardew_Valley_Wiki",
+		"Starbounder": "http://starbounder.org/Starbound_Wiki",
+		"Terraria": "http://terraria.gamepedia.com/Terraria_Wiki"
 	}
 }
