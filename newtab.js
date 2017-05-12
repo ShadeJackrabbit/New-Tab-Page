@@ -29,7 +29,7 @@ $.getJSON('linkbar.json',function(data) {
 				http.onload = function(e) {
 					if (http.status==404) {
 						//If image dosn't, retrieve via google's favicon service
-						sImgSource="http://www.google.com/s2/favicons?domain="+link_url
+						sImgSource="https://www.google.com/s2/favicons?domain="+link_url
 					}
 					$(tabMenu).append("<a href='"+link_url+"' class='menuItem'><img src='"+sImgSource+"'/>"+entry+"</a>");
 				}
