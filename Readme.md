@@ -1,4 +1,4 @@
-#New Tab Start Page#
+# New Tab Start Page
 A start page for your browser to be used as a New Tab replacement. Built not as an extension, but as a web page, it can be used with most modern standard-compliant web browsers.
 
 ![Screenshot](http://i.imgur.com/o55MuXp.jpg)
@@ -9,7 +9,7 @@ Depends on your browser. Some browsers, you just set your homepage. Others, you'
 
 Background images are loaded from the backgrounds folder, which contains an index file of all the images. When new images are added, this file will have to be updated (a simple powershell script is included).  If you want icons for links, they can go into an "icons" subfolder. (See below.) Any missing icons will be loaded using Google's favicon engine.
 
-##Version Info##
+## Version Info
 
 **v1.4 - JS upgrade**
 
@@ -31,7 +31,7 @@ Background images are loaded from the backgrounds folder, which contains an inde
 - Links will show up with associated images from the "icons" folder. Icons must be a PNG with the same name as the link.
 - Quotes are formatted with markdown, where positive reinforcement is bold, and negative reinforcement is italics.
 
-##Tech##
+## Tech
 Uses jQuery, which is linked via Google's hosted libraries. Also uses:
 
 - [Jquery Adaptive Backgrounds](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/) by [Brian Gonzalez](http://briangonzalez.org/)
@@ -39,7 +39,7 @@ Uses jQuery, which is linked via Google's hosted libraries. Also uses:
 - [markdown-js](https://github.com/cadorn/markdown-js) by [Christoph Dorn](www.christophdorn.com/)
 - banksean's [Mersenne Twister](https://gist.github.com/banksean/300494) js implementation
 
-##Special Thanks##
+## Special Thanks
 - Wikimedia for [Wikiquote](en.wikiquote.org/), from which most of my quotes were taken.
 - My artist friends for helping me with colour theory
 - [/r/startpages](https://www.reddit.com/r/startpages) for inspiring me.
