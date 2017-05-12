@@ -1,5 +1,11 @@
 var BackgroundImage = document.getElementById("background");
 
+$.getJSON('backgrounds/index.json',function(data) {
+	var randomNumber = Math.floor(m.random() * data.length);
+
+	BackgroundImage.src = "backgrounds/"+data[randomNumber];
+});
+
 var bImW = 0;
 var bImH = 0;
 
