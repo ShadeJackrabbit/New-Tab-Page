@@ -7,9 +7,14 @@ A start page for your browser to be used as a New Tab replacement. Built not as 
 
 Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox.
 
-Background images will have to be inserted into a "backgrounds" zip file. The .zip can be any layout, but only .png and .jpg files will be loaded. If you want icons for links, they can go into an "icons" subfolder. (See below.)
+Background images are loaded from the backgrounds folder, which contains an index file of all the images. When new images are added, this file will have to be updated (a simple powershell script is included).  If you want icons for links, they can go into an "icons" subfolder. (See below.) Any missing icons will be loaded using Google's favicon engine.
 
 ##Version Info##
+
+**v1.4 - JS upgrade**
+
+- Returned to using HTML and JS instead of PHP, to reduce dependency on server usage.
+- JS for loading favicons has been switched to asynchronous
 
 **v1.3 - Resizing Revolution**
 
@@ -18,7 +23,7 @@ Background images will have to be inserted into a "backgrounds" zip file. The .z
 **v1.2 - Magical Image Reading**
 
 - Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.
-- Images are dynamically loaded via PHP from a directory called "backgrounds". Why didn't it work this way before? Because I didn't realize how powerful and awesome PHP was. My bad. Because of this, **Newtab.html is now .php**
+- Switched to using PHP for image loading
 
 **v0.9 - Github Wubwub**
 
