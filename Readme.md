@@ -7,7 +7,7 @@ A start page for your browser to be used as a New Tab replacement. Built not as 
 
 Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox.
 
-Background images are loaded from the backgrounds folder, which contains an index file of all the images. When new images are added, this file will have to be updated (a simple powershell script is included).  If you want icons for links, they can go into an "icons" subfolder. (See below.) Any missing icons will be loaded using Google's favicon engine.
+Background images are loaded from the backgrounds folder, which contains an index file of all the images. When new images are added, this file will have to be updated (a simple powershell script is included).  Icons for links will be loaded using Google's favicon engine.
 
 ## Version Info
 

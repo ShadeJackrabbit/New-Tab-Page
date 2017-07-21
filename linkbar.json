@@ -18,8 +18,8 @@
 		"Oblivion": "http://oblivion.nexusmods.com/",
 		"Greasy Fork": "https://greasyfork.org/en",
 		"Open UserJS": "https://openuserjs.org",
-		"Skyrim": "http://www.nexusmods.com/skyrim/?",
-		"Stardew Valley": "http://www.nexusmods.com/stardewvalley/?",
+		"Skyrim": "https://www.nexusmods.com/skyrim/?",
+		"Stardew Valley": "https://www.nexusmods.com/stardewvalley/?",
 		"Steam Banners": "http://steambanners.booru.org/index.php",
 		"Steam Grid DB": "http://www.steamgriddb.com"
 	},
@@ -38,7 +38,7 @@
 	"Wiki": {
 		"Elder Scrolls": "http://www.uesp.net/wiki/Main_Page",
 		"Erowid": "https://www.erowid.org/experiences/",
-		"Shade Nexus": "http://wiki.shadenexus.com/doku.php",
+		"Shade Nexus": "https://wiki.shadenexus.com/",
 		"Stardew Valley": "http://stardewvalleywiki.com/Stardew_Valley_Wiki",
 		"Starbounder": "http://starbounder.org/Starbound_Wiki",
 		"Terraria": "http://terraria.gamepedia.com/Terraria_Wiki"
