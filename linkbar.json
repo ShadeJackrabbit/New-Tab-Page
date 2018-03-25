@@ -1,8 +1,6 @@
 {
 	"Aggregation": {
 		"Bookmarks": "https://www.raindrop.io/app",
-		"Feedly": "https://feedly.com/i/my",
-		"Panoptikos": "http://www.panoptikos.com/r/detailcraft+me_irl+startpages+unixporn+battlestations+beforenafteradoption+dataisbeautiful+edc",
 		"Reddit": "https://www.reddit.com"
 	},
 	"Apps": {
@@ -15,18 +13,17 @@
 		"Hoopla": "https://www.hoopladigital.com/home;jsessionid=9C70579F4F698F8CDE813390CF185C21"
 	},
 	"Modding": {
-		"Oblivion": "http://oblivion.nexusmods.com/",
 		"Greasy Fork": "https://greasyfork.org/en",
 		"Open UserJS": "https://openuserjs.org",
-		"Skyrim": "https://www.nexusmods.com/skyrim/?",
-		"Stardew Valley": "https://www.nexusmods.com/stardewvalley/?",
+		"Stardew Valley": "https://www.nexusmods.com/stardewvalley/",
 		"Steam Banners": "http://steambanners.booru.org/index.php",
 		"Steam Grid DB": "http://www.steamgriddb.com"
 	},
 	"Social": {
-		"Twitter": "https://twitter.com",
 		"Facebook": "https://www.facebook.com/",
-		"Instagram": "https://www.instagram.com"
+		"Moosetodon": "https://www.moosetodon.ca",
+		"Tumblr": "https://tumblr.com",
+		"Twitter": "https://twitter.com"
 	},
 	"Stores": {
 		"Bulbs Pro": "http://www.bulbspro.com",
