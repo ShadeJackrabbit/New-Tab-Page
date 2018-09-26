@@ -1,38 +1,6 @@
 var BackgroundImage = document.getElementById("background");
 
-$.getJSON('backgrounds/index.json',function(data) {
-	var randomNumber = Math.floor(m.random() * data.length);
-
-	BackgroundImage.src = "backgrounds/"+data[randomNumber];
-});
-
-var bImW = 0;
-var bImH = 0;
-
-function backgroundResize() {
-	var difX = document.body.clientWidth / bImW;
-	var difY = document.body.clientHeight / bImH;
-	
-	if (difX >= difY) {
-		//Needs to scale more along X
-		$(BackgroundImage).css('width', '100%');
-		$(BackgroundImage).css('height', 'auto');
-	} else {
-		//Needs to scale more along Y
-		$(BackgroundImage).css('width', 'auto');
-		$(BackgroundImage).css('height', '100%');
-	}
-
-	$(BackgroundImage).css('left', (document.body.clientWidth/2) - (BackgroundImage.clientWidth/2));
-	$(BackgroundImage).css('top', (document.body.clientHeight/2) - (BackgroundImage.clientHeight/2));
-}
-
 BackgroundImage.onload = function() {
-	bImW = BackgroundImage.clientWidth;
-	bImH = BackgroundImage.clientHeight;
-	
-	backgroundResize();
-
 	$.adaptiveBackground.run();
 }
 
@@ -79,5 +47,3 @@ $(BackgroundImage).on('ab-color-found', function(ev,payload){
 	$('strong').css('color', good.getCSSIntegerRGB());
 	$('#linkbar, .tabMenu, .material, .linkTab').css('background-color', backColour.getCSSHexadecimalRGB());
 });
-
-$(window).on("resize", backgroundResize);
