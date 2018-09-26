@@ -1,38 +1,15 @@
 # New Tab Start Page
-A start page for your browser to be used as a New Tab replacement. Built not as an extension, but as a web page, it can be used with most modern standard-compliant web browsers.
+A start page for your browser to be used as a New Tab replacement. Built not as an extension, but as a web page. You can run it on your own server and use it as your start page.
 
 ![Screenshot](http://i.imgur.com/o55MuXp.jpg)
 
 **How to use?**
+You'll need to host it somewhere, then point your home page to it. Hopefully your browser lets you set the home page for your new tabs.
 
-Depends on your browser. Some browsers, you just set your homepage. Others, you'll need an extension, like [Custom New Tab](https://addons.mozilla.org/en-US/firefox/addon/custom-new-tab/) for Firefox.
-
-Background images are loaded from the backgrounds folder, which contains an index file of all the images. When new images are added, this file will have to be updated (a simple powershell script is included).  Icons for links will be loaded using Google's favicon engine.
-
-## Version Info
-
-**v1.4 - JS upgrade**
-
-- Returned to using HTML and JS instead of PHP, to reduce dependency on server usage.
-- JS for loading favicons has been switched to asynchronous
-
-**v1.3 - Resizing Revolution**
-
-- Dynamically resizes images to screen size, always maximizing the screen usage.
-
-**v1.2 - Magical Image Reading**
-
-- Dynamically retrieves favicons for URLs that don't have one cached. You can run the entire thing without any saved favicons at all, technically.
-- Switched to using PHP for image loading
-
-**v0.9 - Github Wubwub**
-
-- You can load images from a "backgrounds" folder, though the number of files must be manually entered into background.js
-- Links will show up with associated images from the "icons" folder. Icons must be a PNG with the same name as the link.
-- Quotes are formatted with markdown, where positive reinforcement is bold, and negative reinforcement is italics.
+Background images are loaded from the backgrounds folder via PHP.  Icons for links will be loaded using Google's favicon engine.
 
 ## Tech
-Uses jQuery, which is linked via Google's hosted libraries. Also uses:
+Uses jQuery, which is linked via Google's hosted libraries. PHP is used to serve the web page. Also uses:
 
 - [Jquery Adaptive Backgrounds](http://briangonzalez.github.io/jquery.adaptive-backgrounds.js/) by [Brian Gonzalez](http://briangonzalez.org/)
 - [Colour.js](http://code.stephenmorley.org/javascript/colour-handling-and-processing/) by [Stephen Morley](http://stephenmorley.org/)
